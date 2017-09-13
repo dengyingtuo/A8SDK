@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a8_login_choose_title">选择登录方式</string>
+
+    <!-- QQ微信相关提示信息 -->
+    <string name="wx_loading">微信加载中...</string>
+    <string name="wx_app_install">请先安装微信应用</string>
+    <string name="wx_app_update">请先更新微信应用</string>
+    <string name="wx_login_cancle">微信登录取消</string>
+    <string name="wx_login_refuse">微信登录拒绝</string>
+    <string name="wx_login_fail">微信登录失败，请重试,或选择其他登录方式</string>
+    <string name="wx_loading_fail">微信加载失败，请重新登录</string>
+    <string name="qq_login_cancle">QQ登录取消</string>
+    <string name="qq_login_fail">QQ登录失败，请重新登录</string>
+
+
+    <string name="a8_login_title">登录游戏</string>
+    <string name="a8_login_uedit_hint">手机号/用户名</string>
+    <string name="a8_login_pwdedit_hint">请输入6~20位密码</string>
+    <string name="a8_login_entergame">进入游戏</string>
+    <string name="a8_login_phoneregister">手机一键注册</string>
+    <string name="a8_login_tryplay">一键试玩</string>
+    <string name="a8_login_link_forget_pwd">忘记密码>></string>
+    <string name="a8_phone_register_title">手机注册</string>
+    <string name="a8_phone_register_phone">请输入手机号码</string>
+    <string name="a8_phone_register_code">请输入手机验证码</string>
+    <string name="a8_phone_register_btn">立即注册</string>
+    <string name="a8_findpwd_title">找回密码</string>
+    <string name="a8_findpwd_uedit_hint">请输入您的账号/手机号</string>
+    <string name="a8_findpwd_btn">下一步</string>
+    <string name="a8_resetpwd_btn">确定并登录</string>
+    <string name="a8_resetpwd_pwdedit_hint">请输入6~20位的新密码</string>
+    <string name="a8_resetpwd_title">设置新密码</string>
+    <string name="a8_account_register_title">账号注册</string>
+    <string name="a8_account_register_uedit_hint">6~20个字符含数字、字母_</string>
+    <string name="a8_account_register_btn">完成注册</string>
+    <string name="a8_bindphone_title">绑定手机号</string>
+    <string name="a8_bindphone_send_btn">发送验证码</string>
+    <string name="a8_bindphone_resend_btn">重发验证码</string>
+    <string name="a8_login_tips_loginfail">很抱歉，登录失败...</string>
+    <string name="a8_login_tips_loginsuccess">，欢迎回来。</string>
+    <string name="a8_register_tips_register_fail">很抱歉，注册失败...</string>
+    <string name="a8_register_tips_register_success">恭喜您，注册成功！</string>
+    <string name="a8_register_tips_please_enter_correct_uname">请输入6-20位的用户名...</string>
+    <string name="a8_register_tips_please_enter_correct_username">用户名只能包含数字、字母和下划线</string>
+    <string name="a8_register_tips_please_enter_correct_pwd">密码应为6-20个字符,区分大小写,不能为中文</string>
+    <string name="a8_register_link_backtologin">返回登录>></string>
+    <string name="a8_register_link_phone_register">手机注册</string>
+    <string name="a8_register_link_account_register">账号注册</string>
+    <string name="a8_bindphone_nexttime">下次再说>></string>
+    <string name="a8_findpwd_link_tip1">没绑定手机号请</string>
+    <string name="a8_findpwd_link_tip2"> 联系客服 </string>
+    <string name="a8_findpwd_link_tip3">找回</string>
+    <string name="a8_findpwd_tips_auth_success">验证成功</string>
+    <string name="a8_findpwd_tips_send_fail">很抱歉，发送失败，请重试一次...</string>
+    <string name="a8_bindphone_authcode_sended">验证码已经发送，请注意查收。</string>
+    <string name="a8_bindphone_authcode_send_fail">很抱歉，发送失败，请重试一次...</string>
+    <string name="a8_bindphone_binding_success">绑定成功！</string>
+    <string name="a8_bindphone_binding_fail">很抱歉，绑定失败，请重试一次...</string>
+    <string name="a8_resetpwd_tips_reset_success">恭喜您，密码重置成功！</string>
+    <string name="a8_resetpwd_tips_reset_fail">很抱歉，密码重置失败，请稍后重试...</string>
+    
+    <string name="a8_login_tips_please_enter_username">请输入用户名...</string>
+    <string name="a8_login_tips_please_enter_pwd">请输入密码...</string>
+    <string name="a8_login_tips_please_enter_correctpwd">请输入6位以上，20位以下的密码...</string>
+    <string name="a8_login_tips_please_enter_valcode">请输入验证码...</string>
+    <string name="a8_login_tips_please_enter_phone">请输入手机号码...</string>
+    <string name="a8_login_tips_please_enter_correctphone">请输入正确的手机号码...</string>
+    <string name="a8_findpwd_tips_please_enter_correctuname">账号/手机号不能长度不能小于6</string>
+    
+    <string name="a8_autologin_title">正在自动登录，请稍后...</string>
+    <string name="a8_autologin_btn">切换账号</string>
+    
+    <string name="a8_login_tips_not_network">网络异常，请检查您的网络！</string>
+    
+    <string name="a8_guest_prompt">游客提醒</string>
+    <string name="a8_fast_login_warn">您正在使用游客登录，更换设备将无法找回角色，建议您进行账号绑定！</string>
+    <string name="a8_fast_pay_warn">您当前正在使用游客账号充值，游客账号更换设备后将无法登录，为保证您的账号安全，建议进行账号绑定！</string>
+    <string name="a8_fast_login_comfirm">去绑定</string>
+    <string name="a8_fast_login_cancle">继续试玩</string>
+    <string name="a8_fast_pay_cancle">继续充值</string>
+    <string name="a8_bind_account">绑定账号</string>
+    <string name="a8_guestbindphone_title">游客绑定手机号</string>
+    <string name="a8_guestbindphone_btn">立即绑定</string>
+    <string name="a8_guestbindphone_link_left">绑定账号>></string>
+    <string name="a8_guestbindphone_link_right">下次再说>></string>
+    <string name="a8_guestbindaccount_title">游客绑定账号</string>
+    <string name="a8_guestbindaccount_link_left">绑定手机号>></string>
+    
+    <string name="a8_real_name_title">实名认证</string>
+    <string name="a8_real_name_tips">根据《网络游戏管理暂行办法》，游戏用户须使用有效身份证件进行实名认证。</string>
+    <string name="a8_real_name_hint">请输入您的真实姓名</string>
+    <string name="a8_id_card_hint">请输入您的有效身份证号码</string>
+    <string name="a8_real_name_btn_text">立即认证</string>
+    <string name="a8_real_name_null">姓名不能为空</string>
+    <string name="a8_real_card_null">身份证号不能为空</string>
+    <string name="a8_real_card_nocorrect">身份证号码为17位数字 + 1位数字（或字母）</string>
+    <string name="a8_real_name_fail_tips">认证失败，请重试！</string>
+
+    <string name="pay_center_title">充值中心</string>
+    <string name="pay_choose_tips">请选择支付方式：</string>
+    <string name="pay_service_teltv">客服热线:</string>
+    <string name="pay_service_qqtv">客服QQ:</string>
+    <string name="pay_service_tel">075526553100</string>
+    <string name="pay_service_qq">2952178603</string>
+    
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/share_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/share_wxfriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/wechat"
+            android:gravity="center"
+            android:text="@string/share_wxfriends_text"
+            android:textColor="@drawable/main_rb_text_selector"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:id="@+id/share_wxzone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/wxzone"
+            android:gravity="center"
+            android:text="@string/share_wxzone_text"
+            android:textColor="@drawable/main_rb_text_selector"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:id="@+id/share_qqfriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/qq"
+            android:gravity="center"
+            android:text="@string/share_qqfriends_text"
+            android:textColor="@drawable/main_rb_text_selector"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:id="@+id/share_qqzone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/qqzone"
+            android:gravity="center"
+            android:text="@string/share_qqzone_text"
+            android:textColor="@drawable/main_rb_text_selector"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_split_line" />
+
+        <Button
+            android:id="@+id/share_cancel"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/share_cancel_text"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

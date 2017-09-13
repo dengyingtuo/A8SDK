@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="a8_transparent">#00000000</color>
+    <color name="a8_login_title_split_line">#9d9d9d</color>
+    <color name="a8_login_text">#666666</color>
+    <color name="a8_link_text">#666666</color>
+    <color name="a8_hint">#d4d3d3</color>
+    <color name="a8_dialog_bg">#FEFFEE</color>
+    <color name="a8_title_button_unchoosed">#53534a</color>
+    <color name="a8_login_entergame_button">#b54000</color>
+    <color name="a8_login_phoneregister_button">#666666</color>
+    <color name="a8_login_phoneregister_button_text">#ac4d00</color>
+    <color name="a8_bindphone_send_button">#ffcc00</color>
+    <color name="a8_bindphone_send_button_text">#b54000</color>
+    <color name="a8_autologin_btn_text">#c55800</color>
+    <color name="a8_login_account_select_text">#c6c6c6</color>
+    <color name="a8_login_edit_bg">#FFFFFF</color>
+    <color name="a8_black_text_color">#000000</color>
+    <color name="a8_red_text_color">#ff0000</color>
+    <color name="a8_negative_text_color">#FFD1D1D1</color>
+    
+    <color name="a8_debug_color">#00ffff</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A8SDK.iml" filepath="$PROJECT_DIR$/A8SDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a8sdk/a8sdk.iml" filepath="$PROJECT_DIR$/a8sdk/a8sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+     <corners android:radius="5dp" />
+    <stroke android:color="@color/a8_login_title_split_line" android:width="2dp" />
+    <solid android:color="@color/a8_login_edit_bg" />
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+</shape>

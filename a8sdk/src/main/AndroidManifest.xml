@@ -1,0 +1,136 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.a8.zyfc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc.hce" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+
+    <application
+        android:allowBackup="true" >
+
+        <activity
+            android:name="com.a8.zyfc.activity.LoginChooseActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/a8_dialog_login">
+            <intent-filter>
+                <action android:name="com.zhiyou.account.login"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.a8.zyfc.activity.LoginDialogActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/a8_dialog_login"/>
+        <activity
+            android:name="com.a8.zyfc.activity.PhoneRegisterActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/a8_dialog_login"/>
+        <activity
+            android:name="com.a8.zyfc.activity.AccountRegisterActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/a8_dialog_login"/>
+    	<activity
+    	    android:name="com.a8.zyfc.activity.BindPhoneNunberActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+    	    android:theme="@style/a8_dialog_login"/>
+    	<activity
+    	    android:name="com.a8.zyfc.activity.FindPwdActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+    	    android:theme="@style/a8_dialog_login"/>
+    	<activity
+    	    android:name="com.a8.zyfc.activity.ResetPwdActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+    	    android:theme="@style/a8_dialog_login"/>
+    <!--<activity
+    	    android:name="com.a8.zyfc.activity.GuestBindAccountActivity"
+    	    android:theme="@style/a8_dialog_login"/>-->
+    	<activity
+    	    android:name="com.a8.zyfc.activity.GuestBindPhoneActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+    	    android:theme="@style/a8_dialog_login"/>
+        <!-- QQLogin -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:noHistory="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent你的AppId" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <!-- wxLogin -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:launchMode="singleTask"
+            android:exported="true" />
+
+        <activity
+            android:name="com.a8.zyfc.pay.activity.AppPayMainActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/a8_dialog_login"/>
+        <!-- upomp begin -->
+        <uses-library
+            android:name="org.simalliance.openmobileapi"
+            android:required="false" />
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.unionpay.UPPayWapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- upomp end -->
+        <!-- alipay begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <!-- alipay end -->
+        <!-- wxPay -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>

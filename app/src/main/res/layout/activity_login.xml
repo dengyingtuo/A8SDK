@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginBottom="20dp"
+	    android:text="@string/login"
+	    android:textSize="28sp" />
+	
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/a8_login_btn_bg_selector"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:text="@string/phone"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/wechat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/a8_login_btn_bg_selector"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:text="@string/wechat"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/qq"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/a8_login_btn_bg_selector"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:text="@string/qq"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/go"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/a8_login_btn_bg_selector"
+        android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:text="@string/go"
+        android:textSize="20sp"
+        android:visibility="gone" />
+    
+    <TextView
+        android:id="@+id/log"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:textSize="16sp" />
+
+</LinearLayout>

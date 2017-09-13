@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A8SDK</string>
+    <string name="login">登    录</string>
+    <string name="phone">手机登录</string>
+    <string name="wechat">微信登录</string>
+    <string name="qq">QQ登录</string>
+    <string name="go">进入主页</string>
+    <string name="logout">退出登录</string>
+    <string name="pay">支    付</string>
+    <string name="sharetxt">分享文本</string>
+    <string name="shareimg">分享图片</string>
+    <string name="shareweb">分享网页</string>
+    <string name="share_wxfriends_text">微信好友</string>
+    <string name="share_wxzone_text">朋友圈</string>
+    <string name="share_qqfriends_text">QQ好友</string>
+    <string name="share_qqzone_text">QQ空间</string>
+    <string name="share_cancel_text">取消</string>
+
+</resources>
